@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DevTeam504Entities-Web.config Connection String" description="DevTeam504Entities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/DB.WebpackModel.csdl|res://*/DB.WebpackModel.ssdl|res://*/DB.WebpackModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=devteamhn.database.windows.net;initial catalog=DevTeam504;persist security info=True;user id=cdsanchezc;password=CD1618sc.;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\D_Sanchez\\source\\repos\\WebpackAPI\\WebpackAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DevTeam504Entities']/@connectionString" />
+  </parameter>
+</parameters>
