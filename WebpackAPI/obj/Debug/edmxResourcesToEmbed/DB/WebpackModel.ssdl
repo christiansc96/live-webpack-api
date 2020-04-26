@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DevTeam504Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Talleres">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="PathImage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="URLYoutubeLive" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Speaker" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TwitterSpeaker" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DevTeam504ModelStoreContainer">
+    <EntitySet Name="Talleres" EntityType="Self.Talleres" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
